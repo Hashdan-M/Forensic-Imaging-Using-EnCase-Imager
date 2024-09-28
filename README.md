@@ -39,17 +39,45 @@ The selected evidence will be listed in the interface. Double-click the evidence
 
 <img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/19e3c5a2044d18389e452d4a41579135e9776179/EnCase/1-4.PNG"/></a>
 
-Start Acquisition Click "Acquire" to begin the imaging process. Enter the case details, including the case number, output path, and the file format for the image. The recommended format is E01, as it is widely supported for further analysis.
+#### 5. Start Acquisition
 
-If desired, you can also encrypt the image at this point.
+Click "**Acquire**" to begin the imaging process. Enter the case details, including the case number, output path, and the file format for the image. The recommended format is E01, as it is widely supported by other forensic tools. 
 
-Note: It is advisable to save the image on an external drive to avoid storage issues; for this demonstration, save it to your desktop at “C:\Users.....\Desktop\Evidence Image\1.E01.”
+*Note: It is advisable to save the image on an external drive to avoid storage issues; for practical reasons in this demonstration we will save it to in our desktop at “**C:\Users.....\Desktop\Evidence Image\1.E01.**”*
 
-Monitor Progress Click "OK" to start the acquisition process. You can monitor the progress and estimated time remaining at the bottom right of the window.
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/8a1785b86524e2db74b7597d82211451c65beb0b/EnCase/1-5.PNG"/></a>
 
-Completion and Hash Generation After the imaging process is complete, the image will be saved in the designated output folder. To ensure the integrity of the evidence, generate a hash value by selecting the evidence and choosing the hash option.
+If desired, you can also password protect and encrypt the image at this point.
 
-Once hashing is done, access the report section at the bottom pane. Right-click to copy the report and paste it into a Word or text document. Save this report along with the E01 file, as it contains critical details, including hash values.
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/8a1785b86524e2db74b7597d82211451c65beb0b/EnCase/1-6.PNG"/></a>
+
+#### 6. Monitor Progress
+
+Click "**OK**" to start the acquisition process. You can monitor the progress and estimated time remaining at the bottom right of the window.
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/8a1785b86524e2db74b7597d82211451c65beb0b/EnCase/1-7.PNG"/></a>
+
+#### 7. Completion and Hash Generation
+
+After the imaging process is complete, the image will be saved in the designated output folder.
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/8a1785b86524e2db74b7597d82211451c65beb0b/EnCase/1-8.PNG"/></a>
+
+To ensure the integrity of the evidence, generate a hash value by selecting the evidence and choosing the hash option.
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/8a1785b86524e2db74b7597d82211451c65beb0b/EnCase/1-9.png"/></a>
+
+Once hashing is done, access the report section at the bottom pane.
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/8a1785b86524e2db74b7597d82211451c65beb0b/EnCase/1-10.PNG"/></a>
+
+Right-click to copy the report and paste it into a Word or text document.
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/8a1785b86524e2db74b7597d82211451c65beb0b/EnCase/1-11.png"/></a>
+
+Save this report along with the E01 file, as it contains critical details, including hash values.
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/8a1785b86524e2db74b7597d82211451c65beb0b/EnCase/1-12.PNG"/></a>
 
 Restoring the Evidence Image
 With the imaging process completed, you can now restore the acquired image to a drive.
