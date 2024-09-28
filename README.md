@@ -14,9 +14,18 @@ This article outlines the process of creating a forensic image of the digital ev
 While the EnCase Imager is widely recognized for its imaging capabilities and ability to preview data, it also offers a range of features that assist forensic investigators in addressing various challenges during the examination of digital devices. Let’s delve into the options that EnCase Imager offers.
 
 <h2>Creating the Forensic Image</h2>
-1. Launch EnCase Imager. Open EnCase Imager and select the "Add Local Device" option.
+ 
+#### 1. **Launch EnCase Imager**
 
-Configure Device Options In the menu, check all relevant options, ensuring "Only show write-blocked" is unchecked, then click "Next."
+Open EnCase Imager and select the "Add Local Device" option.
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/077ef46fef7ed31d52e524eeea3b1416f7c43f86/EnCase/1-1.PNG"/></a>
+
+#### 2. **Configure Device Options**
+
+In the menu, check all relevant options, ensuring "Only show write-blocked" is unchecked, then click "Next."
+
+
 
 Select Evidence Source You will see a list of physical drives, logical partitions, CD-ROMs, RAM, and processes. It is best practice to choose the physical drive, as it provides a complete disk image. If necessary, you may select only specific logical drives or RAM.
 
