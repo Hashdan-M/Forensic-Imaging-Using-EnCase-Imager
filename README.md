@@ -63,7 +63,7 @@ After the imaging process is complete, the image will be saved in the designated
 
 <img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/8a1785b86524e2db74b7597d82211451c65beb0b/EnCase/1-8.PNG"/></a>
 
-To ensure the integrity of the evidence, generate a hash value by selecting the evidence and choosing the hash option.
+To ensure the integrity of the evidence, generate a hash value by selecting the evidence and clicking on "**Hash**".
 
 <img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/8a1785b86524e2db74b7597d82211451c65beb0b/EnCase/1-9.png"/></a>
 
@@ -79,27 +79,60 @@ Save this report along with the E01 file, as it contains critical details, inclu
 
 <img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/8a1785b86524e2db74b7597d82211451c65beb0b/EnCase/1-12.PNG"/></a>
 
-Restoring the Evidence Image
+<h1>Restoring the Evidence Image</h1>
+
 With the imaging process completed, you can now restore the acquired image to a drive.
 
-Open EnCase Imager Launch EnCase Imager again and add the E01 image to your case.
+#### 1. Open EnCase Imager
 
-Select Image for Restoration Browse to the saved image file and add it. The added evidence will be displayed.
+Launch EnCase Imager again and click on "**Add Evidence File**" to add the E01 image to your case.
 
-Choose Files for Restoration Double-click the image, select the files you wish to restore, and then select the "Restore" option under the "Device" menu.
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/f7e69d5a11131f5eeb4b81aeb843c97d3789c6ba/EnCase/1-13.PNG"/></a>
 
-Connect Target Drive Connect the drive where you intend to restore the image and click "Next."
+#### 2. Select Image for Restoration
 
-Select Target Drive All available drives will be displayed. Choose a blank drive for restoration, as existing data will be erased.
+Browse to the saved image file and add it to the case. The added evidence will be displayed.
 
-Verify Hash Values (if necessary) If needed, verify the hash values and proceed by clicking "Finish."
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/f7e69d5a11131f5eeb4b81aeb843c97d3789c6ba/EnCase/1-14.PNG"/></a>
 
-Confirmation to Wipe Drive Type "Yes" in the text box to confirm that you want to wipe the existing data on the selected drive, and then click "OK" to begin the restoration process.
+#### 3. Choose Files for Restoration
 
-Monitor Restoration Progress The restoration will commence, and you can check the progress in the lower right corner of the window.
+Double-click the image, select the files you wish to restore, and then select the "**Restore**" option under the "**Device**" menu.
 
-Completion and Data Verification Once the restoration is complete, access the target drive to verify the restored data. To confirm data integrity, check the report section at the bottom pane to compare hash values with those from the original image report.
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/f7e69d5a11131f5eeb4b81aeb843c97d3789c6ba/EnCase/1-15.png"/></a>
 
-Save the Restoration Report If needed, copy and save the restoration report for future reference.
+#### 4. Select Target Drive
+
+Connect the drive where you intend to restore the image and click "**Next**". All available drives will be displayed. Choose a blank drive for restoration, as existing data will be erased. In our example we will use the F Drive as the target drive.
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/f7e69d5a11131f5eeb4b81aeb843c97d3789c6ba/EnCase/1-16.PNG"/></a>
+
+#### 5. Verify Hash Values and Confirmation to Wipe Drive
+
+If needed, verify the hash values and proceed by clicking "**Finish**". Type "**Yes**" in the text box to confirm that you want to wipe the existing data on the selected drive, and then click "**OK**" to begin the restoration process.
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/f7e69d5a11131f5eeb4b81aeb843c97d3789c6ba/EnCase/1-17.PNG"/></a>
+
+#### 6. Monitor Restoration Progress
+
+The restoration will commence, and you can check the progress in the lower right corner of the window.
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/f7e69d5a11131f5eeb4b81aeb843c97d3789c6ba/EnCase/1-18.PNG"/></a>
+
+#### 7. Completion of Restoration
+
+Once the restoration is complete, access the target drive to verify the restored data. 
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/f7e69d5a11131f5eeb4b81aeb843c97d3789c6ba/EnCase/1-19.PNG"/></a>
+
+#### 8. Data Verification
+
+To confirm data integrity, check the report section at the bottom pane to compare hash values with those from the original image report. 
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/f7e69d5a11131f5eeb4b81aeb843c97d3789c6ba/EnCase/1-20.PNG"/></a>
+
+If needed, copy and save the restoration report for future reference.
+
+<h1>Summary</h1>
 
 By following these steps, the forensic imaging and restoration process using EnCase Imager can be effectively completed, ensuring the preservation and integrity of critical digital evidence.
