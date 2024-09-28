@@ -1,4 +1,4 @@
-
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/19e3c5a2044d18389e452d4a41579135e9776179/EnCase/logo.png"/></a>
 <h1>Forensic Imaging Using EnCase Imager</h1>
 
 <h2>Overview</h2>
@@ -17,21 +17,27 @@ While the EnCase Imager is widely recognized for its imaging capabilities and ab
  
 #### 1. **Launch EnCase Imager**
 
-Open EnCase Imager and select the "Add Local Device" option.
+Open EnCase Imager and select the "**Add Local Device**" option.
 
 <img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/077ef46fef7ed31d52e524eeea3b1416f7c43f86/EnCase/1-1.PNG"/></a>
 
 #### 2. **Configure Device Options**
 
-In the menu, check all relevant options, ensuring "Only show write-blocked" is unchecked, then click "Next."
+In the menu, check all relevant options, ensuring "**Only Show Write-blocked**" is unchecked, then click "**Next**".
 
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/19e3c5a2044d18389e452d4a41579135e9776179/EnCase/1-2.PNG"/></a>
 
+#### 3. Select Evidence Source
 
-Select Evidence Source You will see a list of physical drives, logical partitions, CD-ROMs, RAM, and processes. It is best practice to choose the physical drive, as it provides a complete disk image. If necessary, you may select only specific logical drives or RAM.
+You will see a list of physical drives, logical partitions, CD-ROMs, RAM, and processes. It is best practice to choose the physical drive, as it provides a complete disk image. If necessary, you may select only specific logical drives or RAM. In this example, we will image the J drive, which is a USB drive. Check the box next to the evidence you wish to image and click "**Finish**". 
 
-Finalize Selection Check the box next to the evidence you wish to image and click "Finish." The selected evidence will be listed in the interface.
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/19e3c5a2044d18389e452d4a41579135e9776179/EnCase/1-3.PNG"/></a>
 
-Review Evidence Contents Double-click the evidence to view its contents. At this stage, you can choose to exclude certain files or folders from the imaging process.
+#### 4. Review Evidence Contents
+
+The selected evidence will be listed in the interface. Double-click the evidence to view its contents. At this stage, you can choose to exclude certain files or folders from the imaging process.
+
+<img src="https://github.com/Hashdan-M/Forensic-Imaging-Using-EnCase-Imager/blob/19e3c5a2044d18389e452d4a41579135e9776179/EnCase/1-4.PNG"/></a>
 
 Start Acquisition Click "Acquire" to begin the imaging process. Enter the case details, including the case number, output path, and the file format for the image. The recommended format is E01, as it is widely supported for further analysis.
 
